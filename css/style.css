@@ -24,17 +24,18 @@ a:focus, button:focus { outline: 3px solid black; }
 .noodle-display { max-width: 720px; max-height: 631px; width: 100%; }
 .branding-menu { width: 300px; height: 300px; margin: auto; display: block; }
 header { 
-	height: 100vh;
+	height: 85vh;
 	width: auto;
 	margin: auto;
 	/*padding: 2%;*/
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	color: #fff;
+	text-align: center;
 }
-.index-cover { background: #231f20; height: auto; }
+.index-cover { background: #231f20; }
 main.index-body { background: url('../images/senn-background.png') center right no-repeat #231f20; background-size: 85%; }
 .menu-cover { background: url('../images/rimnamthai-menu-cover.jpg') center no-repeat #16303A; background-size: cover; }
 .drinks-cover { background: url('../images/rimnamthai-drinks-cover.jpg') center no-repeat #16303A; background-size: cover;  }
@@ -44,7 +45,7 @@ main.index-body { background: url('../images/senn-background.png') center right 
 	background: #F0EDED;
 	font-size: 1.2em;
 	height: 100%; /* Full-height: remove this if you want "auto" height */
-	width: 5%; /* Set the width of the sidebar */
+	width: 15%; /* Set the width of the sidebar */
 	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
@@ -52,7 +53,7 @@ main.index-body { background: url('../images/senn-background.png') center right 
 }
 /*#nav-btn { display: block; width: auto; position: fixed; z-index: 200; top: 0; left: 0; font-size: 1.2em; margin: 15px; 
 }*/
-#container { margin-left: 5%; }
+#container { margin-left: 15%; }
 .tooltip {
   position:relative; /* making the .tooltip span a container for the tooltip text */
   padding: 10% 0;
@@ -143,6 +144,23 @@ a.map-button {
     -webkit-transition: opacity .25s ease-in-out;
 }
 button:hover, a.map-button:hover { opacity: 0.8; }
+.modal { background: #0f0f0f !important; }
+.modal a.close-modal { display: none !important; }
+.modal img { display: block; max-width: 360px; width: 100%; margin: auto; }
+.modal p { color: #fff;}
+
+a.modal-button { 
+	width: 150px;
+	padding: 15px;
+	margin: auto;
+	background: #b9b209;
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+	font-size: inherit;
+	cursor: pointer;
+  display: block;
+}
 
 .full-height { height: 100vh; }
 
@@ -294,8 +312,8 @@ ul { list-style: none; padding: 10%; margin: 0; }
 li { line-height: 1.6em; padding: 5%;}
 ul.primary, ul.primary li { padding: 0; }
 ul.primary li a { color: #231f20;  text-align: center;}
-ul.secondary { text-align: center; padding: 0; }
-ul.secondary li { display: inline-block; padding: 1%; }
+ul.secondary, ul.social { text-align: center; padding: 0; }
+ul.secondary li, ul.social li { display: inline-block; padding: 1%; }
 ul.secondary li a { text-decoration: underline; color: #cb9956; }
 li a { width: 100%; display: inline-block; }
 
