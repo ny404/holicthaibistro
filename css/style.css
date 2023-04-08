@@ -1,21 +1,21 @@
-@font-face {
-    font-family: '19-pralight';
-    src: url('../fonts/19-pra_light-webfont.woff2') format('woff2'),
-         url('../fonts/19-pra_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-body { font-size: 1em; font-family: 'Montserrat', sans-serif; font-weight: 400; line-height: 1.6em; padding: 0; margin: 0; background: #191718;}
-h1, h2, h3 { font-weight: 500; line-height: 1.2em; margin-top: 0;  }
-h1 { font-size: 2.4em; color: #cb9956; }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+body { font-size: 1em; font-family: 'Roboto', sans-serif; font-weight: 300; line-height: 1.6em; padding: 0; margin: 0; background: #191718;}
+h1, h2, h3 { font-family: 'Roboto Slab', serif; font-weight: 400; line-height: 1.2em; margin-top: 0;  }
+h1 { font-size: 2.4em; color: #fff; text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #fd6464,
+      0 0 80px #fd6464,
+      0 0 90px #fd6464,
+      0 0 100px #fd6464,
+      0 0 150px #fd6464; }
 h2 { font-size: 2em; color: #cb9956; }
 h3 { font-family: '19-pralight', sans-serif; font-size: 1.6em; color: #cb9956; }
 p { font-size: 1em; color: #fff; }
 a { text-decoration: none; color: #cb9956; }
 a:focus, button:focus { outline: 3px solid black; }
-.bold-it { font-weight: 600; text-transform: uppercase; color: #fff; }
+.bold-it { font-size: 2.6em; line-height: 0.8em; text-transform: uppercase; color: #fd6464; display: block; }
 .emphasize { font-weight: 600; text-transform: uppercase; color: #cb9956; }
 .superscript { font-size: 1.4em; margin: 0; font-weight: 300; }
 .sub { font-size: 1em; line-height: 1.6em; color: #fff; font-style: normal; }
