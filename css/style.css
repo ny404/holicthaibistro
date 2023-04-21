@@ -317,6 +317,14 @@ i.fa-mobile-alt, i.fa-wine-glass-alt { /*margin: 0 8.5px;*/ }
 i.fa-images { /*margin: 0 3.5px;*/ }
 i.fa-fw { font-size: 1.2rem; }
 i.fa-level-up-alt { vertical-align: top; }
+i.fa-subway { vertical-align: baseline; }
+
+.line { display: inline-block; text-align: center; padding: 0 2.5px; border-radius: 25px; width: 20px; font-weight: 500; }
+.line-1, .line-2, .line-3 { background: #ee352e; color: #fff; }
+.line-B, .line-D, .line-F { background: #FF6319; color: #fff; }
+.line-N, .line-Q, .line-R { background: #FCCC0A; color: #000; }
+.line-A, .line-C, .line-E { background: #0039a6; color: #fff; }
+.line-G { background: #6cbe46; color: #fff; }
 
 ul.footer-links { text-align: right; }
 ul.footer-links li { display: inline-block; padding: 0 1em; }
