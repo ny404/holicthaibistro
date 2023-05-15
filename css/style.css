@@ -399,7 +399,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	i.fa-fw { font-size: 2rem; }
 	i.fa-home:after, i.fa-utensils:after, i.fa-mobile-alt:after, i.fa-image:after, i.fa-shopping-bag:after {     
 		font-size: 0.4em;
-	    font-family: 'Montserrat', sans-serif;
+	    font-family: 'Roboto', sans-serif;
 	    font-weight: 600;
 	    text-align: center;
 	    line-height: 1.6em;
