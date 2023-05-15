@@ -57,7 +57,7 @@ main.index-body { background: url('../images/senn-background.png') center right 
 .hours { width: 25%; float: left; }
 .hours:after { clear: both; }
 #nav-menu { 
-	background: #2b2627;
+	background: #191718;
 	font-size: 1.2em;
 	height: 100%; /* Full-height: remove this if you want "auto" height */
 	width: 15%; /* Set the width of the sidebar */
@@ -121,7 +121,7 @@ main.index-body { background: url('../images/senn-background.png') center right 
 
 main { background: #231f20; }
 footer { 
-	background: #191718;
+	background: #231f20;
 	color: #fff;
 	padding: 2.5% 5%;
 	display: flex;
