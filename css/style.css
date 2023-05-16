@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
-body { font-size: 1em; font-family: 'Roboto', sans-serif; font-weight: 300; line-height: 1.6em; padding: 0; margin: 0; background: #191718;}
+body { font-size: 1em; font-family: 'Roboto', sans-serif; font-weight: 300; line-height: 1.6em; padding: 0; margin: 0; background: #231f20;}
 h1, h2, h3 { font-family: 'Roboto Slab', serif; font-weight: 400; line-height: 1.2em; margin-top: 0;  }
 h1 { font-size: 2.4em; color: #fff; text-shadow:
       0 0 4px #fff,
@@ -147,6 +147,8 @@ button {
     display: inline-block;
 }
 a.map-button { 
+	display: block;
+	text-align: center;
 	padding: 10px;
 	background: #640202;
 	color: #fff;
@@ -412,6 +414,7 @@ ul.footer-links li { display: inline-block; padding: 0 1em; }
 	i.fa-shopping-bag:after { content: 'Order'; }
 
 	.food-section .food-image img { max-height: none; }
+	.pre-map { padding: 5%; }
 }
 
 @media screen and (max-width: 320px){
