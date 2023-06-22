@@ -50,8 +50,7 @@ header {
 	flex-wrap: wrap;
 	text-align: center;
 }
-.index-cover { background: #231f20; }
-main.index-body { background: url('../images/senn-background.png') center right no-repeat #231f20; background-size: 85%; }
+.index-cover { background: url('../images/holic592-index-cover.jpg') center no-repeat #231f20; background-size: cover; }
 .menu-cover { background: url('../images/rimnamthai-menu-cover.jpg') center no-repeat #16303A; background-size: cover; }
 .drinks-cover { background: url('../images/rimnamthai-drinks-cover.jpg') center no-repeat #16303A; background-size: cover;  }
 .hours { width: 25%; float: left; }
@@ -149,7 +148,7 @@ main.index-body { background: url('../images/senn-background.png') center right 
     }
 }
 
-main { background: #231f20; }
+main { background: url('../images/holic592-main-pattern.jpg') top center no-repeat #231f20; background-size: cover; }
 footer { 
 	background: #231f20;
 	color: #fff;
@@ -212,7 +211,7 @@ a.modal-button {
 .full-height { height: 100vh; }
 
 section { 
-	max-width: 1366px;
+/*	max-width: 1366px;*/
 	width: auto;
 	margin: auto;
 	padding: 5% 5%;
@@ -251,6 +250,10 @@ section.scroll-indicator { padding: 0 5%; justify-content: flex-end; text-align:
   order: 2;
 }
 
+section.story { align-items:center; }
+section.story .image-caption { text-align: center; }
+section.story img { max-width: 480px; width: 100%; }
+
 section.find-us { justify-content: flex-end; align-items: flex-start; background: url('../images/holic592-map.jpg') center no-repeat; height: 50vh; }
 .pre-map { background: rgba(0,0,0,0.5); padding: 2.5%; }
 table.business-hours th {
@@ -273,6 +276,7 @@ hr { width: 100%; height: 1px; color: #cb9956; background: #cb9956; border: none
 .col-2 { width: 16.66666667%; }
 .col-3 { width: 25%; }
 .col-4 { width: 33.33333333%; }
+.col-5 { width: 41.66666667%; }
 .col-6 { width: 50%; }
 .col-8 { width: 66.66666667%; }
 .col-9 { width: 75%; }
