@@ -199,9 +199,10 @@ a.modal-button {
 	width: 150px;
 	padding: 15px;
 	margin: auto;
-	background: #b9b209;
+	background: #640202;
 	color: #fff;
 	text-align: center;
+	border: 1.5px solid #FD6464;
 	border-radius: 5px;
 	font-size: inherit;
 	cursor: pointer;
